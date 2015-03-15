@@ -1,0 +1,69 @@
+# Problemset Example
+
+  
+```{r include=FALSE}
+
+ps.dir =  'D:/libraries/RTutor/examples' # set to the folder in which this file is stored
+ps.file = 'Example.Rmd' # set to the name of this file
+user.name = '' # set to your user name
+
+library(RTutor)
+check.problem.set('Example', ps.dir, ps.file, user.name=user.name, reset=FALSE)
+
+# To check your solution in RStudio save (Ctrl-S) and then run all chunks (Ctrl-Alt-R)
+```
+Name: `r user.name`
+
+
+Example of an RTutor interactive Problemset
+
+#### Author:  Sebastian Kranz
+
+Adapt the working directory below and press Ctrl-Alt-R (run all chunks). This creates the problem set files and the sample solution from this solution file.
+
+
+## Exercise 1 -- Summary statistics
+
+a) First part
+
+Compute 1+1+1 and store it in z
+```{r "1 a)", optional = TRUE}
+
+```
+
+
+b)
+We often want to compute some summary statistic of a vector.
+For example:
+
+
+```{r "1 b) 1",fig.height=3}
+x = 10:20
+# Computing the sum of x
+sum(x)
+```
+
+Now compute the mean of x.
+```{r "1 b) 2"}
+
+```
+
+
+info("useful functions for numeric vectors") # Run this line (Strg-Enter) to show info
+
+
+
+## Exercise 2 -- Computing with vectors
+a) Let y be a vector that contains the squared elements of x. Show y
+```{r "2 a)"}
+
+```
+
+b) Run this chunk and check out the data button
+```{r "2 b)"}
+# Generating a data frame
+df = data.frame(a=c(1,1,2,2,2,3,3,4), b = runif(8), c="Hi")
+df
+```
+
+That's all folks!

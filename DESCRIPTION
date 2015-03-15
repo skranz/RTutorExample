@@ -1,0 +1,12 @@
+Package: RTutorExample
+Type: Package
+Title: RTutor problem set example for a package.
+Version: 0.1
+Date: 2015-15-03
+Author: Sebastian Kranz
+Maintainer: Sebastian Kranz <sebastian.kranz@uni-ulm.de>
+Description: RTutor problem set example for a package.
+License: 
+	Problem set content: Creative Commons (CC BY)
+	Package code: GPL >= 2.0
+Depends: RTutor
