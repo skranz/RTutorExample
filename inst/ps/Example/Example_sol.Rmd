@@ -32,7 +32,7 @@ stop.without.error()
 a) First part
 
 Compute 1+1+1 and store it in z
-```{r "1 a)", optional = TRUE}
+```{r "1 a)"}
 #< compute z
 
 ## First store the intermediate result 1+1 in a variable 'y'
